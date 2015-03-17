@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+        <script src="currnames.js"></script>
+        <title>Currency Converter</title>
+    </head>
+    
+    <body>
+       <h2>Currency Converter</h2>
+       <h6>by Henry Henderson & Andrew Madden</h6>
+        <section>
+            <div id="names"></div>
+            
+            <p>
+                <label for="base">Amount</label>
+                <input type="text" id="base" value="1.00" class="form-control">
+            </p>
+
+            <p>
+                <label for="usd">United States Dollar</label>
+                <input type="text" id="usd" value='' class="form-control" readonly><br />
+                <label for="eur">Euro</label>
+                <input type="text" id="eur" value='' class="form-control" readonly><br />
+                <label for="gbp">Great British Pound</label>
+                <input type="text" id="gbp" value='' class="form-control" readonly><br />
+                <label for="cad">Canadian Dollar</label>
+                <input type="text" id="cad" value='' class="form-control" readonly><br />
+                <label for="jpy">Japanese Yen</label>
+                <input type="text" id="jpy" value='' class="form-control" readonly><br />
+            </p>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="openexchange.js"></script>
+    </body>
+</html>

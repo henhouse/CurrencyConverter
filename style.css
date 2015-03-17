@@ -1,0 +1,25 @@
+body {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto 0;
+}
+
+.form-control  {
+    width: 280px;
+}
+
+section {
+    margin-top: auto;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    width: 600px;
+}
+
+h6 {
+    font-family: 'Lora', serif;
+    font-size: 10pt;
+    text-align: center;
+}
