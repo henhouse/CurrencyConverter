@@ -4,7 +4,7 @@ body {
     margin: 0 auto 0;
 }
 
-.form-control  {
+.form-control, .input-group {
     width: 280px;
 }
 
@@ -22,4 +22,8 @@ h6 {
     font-family: 'Lora', serif;
     font-size: 10pt;
     text-align: center;
+}
+
+label {
+    padding-top: 10px;
 }
