@@ -1,5 +1,4 @@
 $(function () {
-
     $.ajax({
         type: 'GET',
         url: 'http://openexchangerates.org/api/latest.json?app_id=b4c95044710a495193aadb8040d238c8',
@@ -10,6 +9,7 @@ $(function () {
             var gbp = json.rates.GBP;
             var cad = json.rates.CAD;
             var yen = json.rates.JPY;
+            var btc = json.rates.BTC;
 
             var amount = $('#base').val();
             updateCurrencies();
@@ -26,6 +26,7 @@ $(function () {
                 $('#gbp').attr("value", amount * gbp);
                 $('#cad').attr("value", amount * cad);
                 $('#jpy').attr("value", amount * yen);
+                $('#btc').attr("value", amount * btc);
             }
         }
     });

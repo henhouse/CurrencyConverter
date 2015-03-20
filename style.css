@@ -1,7 +1,5 @@
 body {
     width: 300px;
-    padding: 20px;
-    margin: 0 auto 0;
 }
 
 .form-control, .input-group {
@@ -9,8 +7,14 @@ body {
 }
 
 section {
-    margin-top: auto;
-    padding-top: 50px;
+    width: 280px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 h2 {
@@ -20,10 +24,21 @@ h2 {
 
 h6 {
     font-family: 'Lora', serif;
-    font-size: 10pt;
+    font-size: 11pt;
     text-align: center;
 }
 
+
 label {
     padding-top: 10px;
+}
+
+#map {
+    border-top: 2px #000 solid;
+    position: absolute;
+    top: 95px;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+    margin: 0; 
 }
